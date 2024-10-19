@@ -26,6 +26,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: List files in the repository
+        run: ls -R  # This will help in debugging
+
       - name: Run tests
         run: |
           pytest test/
