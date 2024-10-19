@@ -31,4 +31,4 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest tests/  # Update this line to match your directory
+          pytest tests/  
